@@ -121,3 +121,5 @@ On the Kali Linux M/C execute following command to get the reverse shell of Wind
 	Copy the O/P of this command and put it in the clipboard.
 
 
+
+Youtube Link: https://www.youtube.com/watch?v=j-K0jX0vgkI&ab_channel=AhasanAnowar
