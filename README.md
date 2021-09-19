@@ -1,4 +1,23 @@
 # zeit8042 - Shellcode Design to Buffer Overflow on Windows 7 Machine using vulnerable application as SLMail. 
+
+
+
+                                          ZEIT8042: Introduction of Exploit Design.
+					
+					                              Construct buffer overflow to exploit the system.
+
+
+			                  Later, DEP(enabled) environment also exploited by using ROP (Return Oriented Programming)
+
+
+            Environment: 		Kali Linux 2021.2 for attacking machine: 192.168.72.136 | 134
+	          	              Window 7 SP1: Victim Machine: 192.168.72.137 | 133: 32 bits 
+
+
+
+
+
+
 What we try to achieve?
 •	Get the control of EIP register.
 •	Tell instruction register to execute our preferred program like /bin/sh, reverse shell, shellcode execution.
