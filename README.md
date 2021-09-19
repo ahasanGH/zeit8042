@@ -29,7 +29,7 @@ EIP = 41414141 (Achieved)
 (2)	./buffer – fuzz – pattern.py
 ESP = 022EA128 (Dj0Dj1Dj...)
 
-(A)	In ID (Immunity Debugger): after attaching the SLMail application.
+In ID (Immunity Debugger): after attaching the SLMail application.
 Kali Linux MC: find pattern_create
 	Locate pattern_create
 O/P: /user/bin/msf-pattern_create
@@ -120,7 +120,7 @@ On the stack dump: O/P is 
 019CA11C	41414141	AAAA
 019CA120	41414141	AAAA
 019CA124	5F4A358F	SLMFC.5F4A3585	 A
-019CA128	43434343				 B	
+019CA128	43434343			 B	
 019CA12C	43434343
 
 (A)	It is important (0X019CA124) memory location contain string (5F4A358F), which in actually a memory address that stack do not consider. It’s job in when EIP resistor have this input it see whether it is a legitimate address or not? If not ‘access violation’ or jump to that location. When it jump to that location, it found ‘JMP ESP’ instruction or op code of “\XFF\XEA”. 
