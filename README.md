@@ -4,10 +4,10 @@
 
                                           ZEIT8042: Introduction of Exploit Design.
 					
-					                              Construct buffer overflow to exploit the system.
+					 Construct buffer overflow to exploit the system.
 
 
-			                  Later, DEP(enabled) environment also exploited by using ROP (Return Oriented Programming)
+			 Later, DEP(enabled) environment also exploited by using ROP (Return Oriented Programming)
 
 
             Environment: 		Kali Linux 2021.2 for attacking machine: 192.168.72.136 | 134
