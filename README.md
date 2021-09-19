@@ -131,4 +131,10 @@ On the Kali Linux M/C execute following command to get the reverse shell of Wind
 
 
 
-Youtube Link: https://www.youtube.com/watch?v=j-K0jX0vgkI&ab_channel=AhasanAnowar
+							--Youtube Links--
+
+Buffer Overflow using Shellcode - ZEIT8042: https://www.youtube.com/watch?v=j-K0jX0vgkI&ab_channel=AhasanAnowar
+
+Shellcode Stopped Execution when DEP-Enable - ZEIT8042: https://www.youtube.com/watch?v=datqp0sultA&ab_channel=AhasanAnowar
+
+
