@@ -12,9 +12,9 @@ How we do it?
 6.	Finding the right module: Try to find out .DLL or something similar that has no memory protection or could be exploitable. In our case we found SKmail.dll and we try to find an address of an instruction like JMP ESP. Later, stack pointer points to shellcode or other application like /bin/sh or get the reuse shell of the attacked system.
 7.	Generate the shellcode (when DEP is disabled): Execute the code to get reverse shell of the attacked system. In our case we use msfvenom tools to generate shellcode.
 8.	Generate the ROP Chains (when DEP enabled): 
-########################################################################
+################################################
 Step-By-Step Procedure for developing the Shellcode:
-########################################################################
+###############################################
 (1)	./buffer – fuzz.py -> executed (check if EIP could be buffer-overflow or not!)
 ESP = 023FA128 … (AAA ….) only ‘A’ send out
 EIP = 41414141 (Achieved)
